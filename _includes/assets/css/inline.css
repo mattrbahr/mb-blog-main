@@ -13,24 +13,27 @@ body {
 	padding: 0;
 	margin: auto;
 	width: 90%;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 body {
 	display: grid;
 	height: 100vh;
+	padding-top: 30px;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
 }
 
 main {
-	max-width: 37.5em;
+	padding-top: 2em;
+	max-width: 32em;
 }
 
 p,
 pre,
 code {
 	line-height: 1.5;
+	font-size: 13px;
 }
 
 a[href],
@@ -50,7 +53,7 @@ img {
 header,
 main,
 footer {
-	padding: 1em;
+	/* padding: 1em; */
 }
 
 main {
@@ -63,7 +66,7 @@ main > article :first-child {
 }
 
 pre {
-	font-size: 14px;
+	font-size: 13px;
 	direction: ltr;
 	text-align: left;
 	white-space: pre;
@@ -79,12 +82,17 @@ pre {
 	margin: .5em 0;
 }
 
+footer {
+	font-size: 13px;
+	margin-bottom: 20px;
+
+}
+
 /* Header Logo (style as h2) */
 header > em {
 	display: block;
-	font-size: 2em;
+	font-size: 13px;
 	margin: .67em 0;
-	font-weight: bold;
 	font-style: normal;
 }
 
@@ -92,6 +100,7 @@ header > em {
 header nav ul {
 	padding: 0;
 	list-style: none;
+	font-size: 13px;
 }
 
 header nav ul :first-child {
@@ -104,16 +113,18 @@ header nav li {
 }
 
 header nav li a {
-	padding: .25em .5em;
+	padding: .25em 0;
 	border-radius: .25em;
 }
 
 header nav li a[href]:not(:hover) {
-	text-decoration: none;
+	text-decoration: underline;
+	color: blue;
 }
 
 header nav li a[data-current="current item"] {
 	background-color: white;
+	font-weight: bold;
 }
 
 /* Posts List */
@@ -174,8 +185,7 @@ button {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 input,
