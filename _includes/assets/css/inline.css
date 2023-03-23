@@ -26,7 +26,9 @@ body {
 
 main {
 	padding-top: 2em;
+	padding-bottom: 2em;
 	max-width: 32em;
+
 }
 
 p,
@@ -56,10 +58,6 @@ footer {
 	/* padding: 1em; */
 }
 
-main {
-	padding-bottom: 2em;
-}
-
 main :first-child,
 main > article :first-child {
 	margin-top: 0;
@@ -80,6 +78,10 @@ pre {
 	hyphens: none;
 	padding: 1em;
 	margin: .5em 0;
+}
+
+li {
+	font-size: 13px;	
 }
 
 footer {
