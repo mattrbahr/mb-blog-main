@@ -61,6 +61,7 @@ footer {
 main :first-child,
 main > article :first-child {
 	margin-top: 0;
+	font-size: 13px;
 }
 
 pre {
