@@ -7,8 +7,6 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-Hi, I'm Matt Bahr. I’m the founder & CEO of [Fairing](https://fairing.co/) (formerly EnquireLabs), a customer insights platform focused on asking questions. Our mission is to operationalize direct-from-consumer (DFC) data. We went to market with a focus on attribution surveys (how did you hear about us?) and now serve over 15 million surveys a month.
+Hi, I'm Matt Bahr. I’m the founder & CEO of [Fairing](https://fairing.co/), an attribution survey solution. Our mission is simple: make marketing efficient by tapping into the most valuable signal – the customer's mind. We launched in 2018 and now serve over 15 million surveys a month for thousands of companies.
 
-Along with running Fairing, I currently advise and consult for wide range of companies, from direct-to-consumer brands to public companies.
-
-If you work in the DTC or ecommerce space, don't hesitate to [get in touch](https://www.mattbahr.net/contact/).
+If you work in marketing or ecommerce, don't hesitate to [get in touch](https://www.mattbahr.net/contact/).
